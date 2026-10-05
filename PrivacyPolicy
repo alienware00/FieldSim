@@ -1,0 +1,47 @@
+Privacy Policy for Fieldsim
+
+Last updated: October 4, 2026
+
+Overview
+
+Fieldsim is an industrial and IoT protocol simulation and testing tool. It is designed to operate entirely on your device and your local network, without collecting, transmitting, or sharing your personal information with us or any third party.
+
+Information We Collect
+
+We do not collect any personal information. Fieldsim has no user accounts, no sign-in, no analytics, no advertising, and no crash-reporting or tracking frameworks of any kind. Nothing you do in the app is sent to us — we have no server that the app talks to.
+
+Information Stored on Your Device
+
+Fieldsim stores a small amount of configuration data locally on your device, using Apple's standard UserDefaults storage. This includes:
+
+• Your appearance preference (Light/Dark/System) and other app settings
+• Connection presets you choose to save (host, port, and protocol-specific settings such as credentials, topics, or object addresses, for the protocol clients on the Client tab)
+
+This data never leaves your device. It is not backed up to any server we control, is not visible to us, and is only transmitted off-device if iCloud or iTunes/Finder device backups are enabled on your own device — a setting entirely under your control through iOS, not through Fieldsim.
+
+If you save credentials (such as a username/password for a broker or server) as part of a connection preset, that preset is stored unencrypted in local app storage on your device, the same way the field itself is populated on screen. Only save credentials for devices and networks you trust, and avoid using this feature to store production credentials you wouldn't want exposed if your device were compromised.
+
+Local Network Communication
+
+Fieldsim's core purpose is to simulate industrial and IoT protocol devices (MQTT, OPC UA, Modbus, BACnet, DNP3, EtherNet/IP, SNMP, AMQP, CoAP, HART-IP, and LoRaWAN) and to test connections to them. To do this, the app:
+
+• Opens network listeners (servers) on your device so other devices on your local network can connect to and communicate with it
+• Opens network connections (clients) to hosts and ports that you explicitly type into the app
+
+All such communication happens directly between your device and the other device(s) on your local network. We do not relay, log, or have any visibility into this traffic. iOS may ask you to grant Fieldsim permission to access devices on your local network — this permission is used solely to perform the simulation and testing functions described above.
+
+Third-Party Services
+
+Fieldsim does not integrate any third-party analytics, advertising, or data-collection SDKs. We do not share information with third parties because we do not collect any to share.
+
+Children's Privacy
+
+Fieldsim does not knowingly collect any information from anyone, including children under 13, because it does not collect personal information at all.
+
+Changes to This Policy
+
+If this policy changes, we will update the "Last updated" date above. Since the app collects no personal information, future changes are expected to be limited to clarifications rather than new data collection.
+
+Contact
+
+If you have questions about this privacy policy, contact: alexgarlock@gmail.com
